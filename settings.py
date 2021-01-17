@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'tesco_com'
+BOT_NAME = 'tesco_com_spider'
 
-SPIDER_MODULES = ['tesco_com.spiders']
-NEWSPIDER_MODULE = 'tesco_com.spiders'
+SPIDER_MODULES = ['spiders']
+NEWSPIDER_MODULE = 'spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'tesco_com.pipelines.TescoComPipeline': 300,
+   'pipelines.pipelines.TescoComPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
