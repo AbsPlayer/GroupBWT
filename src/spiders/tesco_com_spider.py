@@ -2,7 +2,7 @@ import scrapy
 import json
 import logging
 
-from items.items import TescoComItem
+from items.tescocom_item import TescoComItem
 
 class TescoComSpiderSpider(scrapy.Spider):
     name = 'tesco_com_spider'
