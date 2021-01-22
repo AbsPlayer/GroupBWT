@@ -6,9 +6,9 @@ from items.tescocom_item import TescoComItem
 
 class TescoComSpiderSpider(scrapy.Spider):
     name = 'tesco_com_spider'
-    start_urls = ['https://www.tesco.com/groceries/en-GB/shop/household/kitchen-roll-and-tissues/all',
-                  'https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all']
-    # start_urls = ['https://www.tesco.com/groceries/en-GB/shop/household/kitchen-roll-and-tissues/all']
+    # start_urls = ['https://www.tesco.com/groceries/en-GB/shop/household/kitchen-roll-and-tissues/all',
+    #               'https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all']
+    start_urls = ['https://www.tesco.com/groceries/en-GB/shop/household/kitchen-roll-and-tissues/all']
 
     logging.basicConfig(
         filename="log.txt",
