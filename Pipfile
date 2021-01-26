@@ -9,6 +9,7 @@ alembic = "*"
 pymysql = "*"
 unidecode = "*"
 python-dotenv = "*"
+scrapy = "*"
 
 [dev-packages]
 
